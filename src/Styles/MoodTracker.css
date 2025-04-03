@@ -1,0 +1,134 @@
+/* General Card Styling */
+.mood-card {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Mood Slider */
+.mood-slider-container {
+  margin: 20px 0;
+}
+
+.mood-slider {
+  width: 100%;
+  cursor: pointer;
+}
+
+.mood-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Recommendations */
+.recommendation-container {
+  background: rgba(0, 150, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.recommendation-text {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.save-btn {
+  background: #007bff;
+  color: white;
+}
+
+.save-btn:hover {
+  background: #0056b3;
+}
+
+.clear-history-btn {
+  background: #ff6961;
+  color: white;
+  margin-top: 10px;
+}
+
+.clear-history-btn:hover {
+  background: #d9534f;
+}
+
+.report-btn {
+  background: #28a745;
+  color: white;
+  margin-top: 10px;
+}
+
+.report-btn:hover {
+  background: #218838;
+}
+
+/* Mood History */
+.mood-history-list {
+  list-style: none;
+  padding: 0;
+}
+
+.mood-history-item {
+  background: #f0f0f0;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background: darkred;
+}
+
+/* Report Popup */
+.report-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.report-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close-btn {
+  background: #333;
+  color: white;
+}
