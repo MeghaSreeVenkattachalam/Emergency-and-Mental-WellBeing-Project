@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link className="logo" to="/">
-        Safe Space
+        ZenAlert
       </Link>
       <button 
         className="menu-toggle" 

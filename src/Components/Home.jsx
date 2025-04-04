@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <h1>Welcome to Safe Space</h1>
+      <h1>Welcome to ZenAlert</h1>
       <p>Your mental health matters. We’re here to help.</p>
       {!isLoggedIn && (
         <>
